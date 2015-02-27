@@ -19,3 +19,8 @@ I applied minimal post-processing to produce various formats, and to generate
 ward boundaries by aggregating precincts and unioning their geometries. See the
 [`etl`](https://github.com/paulsmith/chicago_wards_and_precincts/tree/master/etl)
 directory for the programs that perform the processing.
+
+Contact
+-------
+
+Email [Paul Smith](https://pauladamsmith.com/) with questions or comments: [paulsmith@pobox.com](mailto:paulsmith@pobox.com)
