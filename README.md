@@ -3,10 +3,10 @@ Chicago wards and precincts shapefiles
 
 * [Download](https://paulsmith.github.io/chicago_wards_and_precincts/)
 
-These Chicago wards and precincts boundary shapefiles are effective as of early
-2015. As of Thursday, February 26, 2015, the shapefiles on the City of Chicago’s
-data portal are stale—they are the boundaries from before the city council
-voted to redraw them in 2012.
+These Chicago wards and precincts boundary shapefiles are **effective as of
+2015**. As of Thursday, February 26, 2015, the shapefiles on the [City of
+Chicago’s data portal](https://data.cityofchicago.org/) are stale—they are the
+boundaries from before the city council voted to redraw them in 2012.
 
 Source
 ------
