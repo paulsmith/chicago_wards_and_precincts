@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Chicago wards &amp; precincts by paulsmith</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    {{unsafe "<!--[if lt IE 9]>"}}
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    {{unsafe "<![endif]-->"}}
+    <style>
+        .dl a {
+            padding-right: 31px;
+            background: url(images/noun_12584.png) no-repeat right;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Chicago wards &amp; precincts</h1>
+        <p>Shapefiles, effective 2015</p>
+        <p class="view"><a href="https://github.com/paulsmith/chicago_wards_and_precincts">View the Project on GitHub <small>paulsmith/chicago_wards_and_precincts</small></a></p>
+        <ul>
+          <li><a href="{{.WardsShapefile}}">Download <strong>CHI Wards</strong></a></li>
+          <li><a href="{{.PrecinctsShapefile}}">Download <strong>CHI Pcts</strong></a></li>
+          <li><a href="https://github.com/paulsmith/chicago_wards_and_precincts">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a id="chicago-wards-and-precincts-shapefiles" class="anchor" href="#chicago-wards-and-precincts-shapefiles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chicago wards and precincts shapefiles</h3>
+
+<p>These Chicago wards and precincts boundary shapefiles are effective as of early
+2015. As of Thursday, February 26, 2015, the shapefiles on the <a href="https://data.cityofchicago.org/">City of
+Chicago’s data portal</a> are stale—they are the
+boundaries from before the city council voted to redraw them in 2012.</p>
+
+<h3>
+<a id="source" class="anchor" href="#source" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source</h3>
+
+<p>The original source material was provided by the <a href="http://www.chicagoelections.com/">Chicago Board of
+Elections</a> in response to a FOIA request, in the form of 50 shapefiles
+corresponding to precinct boundaries and attributes in each Chicago ward.</p>
+
+<p><a href="https://pauladamsmith.com/">I</a> applied minimal post-processing to produce various formats, and to
+generate ward boundaries by aggregating precincts and unioning their geometries.</p>
+
+<div style="background: url(images/wardmap.png) no-repeat right">
+    <h3>
+    <a id="download" class="anchor" href="#download" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download</h3>
+
+    {{range .Files}}
+        <h4>
+            <a id="{{slug .Name}}" class="anchor" href="#{{slug .Name}}" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+            Chicago 2015 {{.Name}}
+        </h4>
+
+        <ul>
+            {{range .Downloads}}
+                <li class="dl">Download <strong><a href="{{url .Filename}}">{{.Name}}</a></strong></li>
+            {{end}}
+        </ul>
+    {{end}}
+
+    <h3>
+    <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+    <p>Having trouble with these files? Email Paul Smith at
+    <a href="mailto:paulsmith@pobox.com">paulsmith@pobox.com</a>.</p>
+</div>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/paulsmith">paulsmith</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    {{unsafe "<!--[if !IE]><script>fixScale(document);</script><![endif]-->"}}
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-304677-19");
+            pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+  </body>
+</html>
