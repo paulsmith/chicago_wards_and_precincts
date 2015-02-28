@@ -20,19 +20,19 @@ var files = []group{
 	{
 		"Wards",
 		[]download{
-			{"Shapefile", "chicago_2015_precincts.zip"},
-			{"TopoJSON", "chicago_2015_precincts_topo.json"},
-			{"GeoJSON", "chicago_2015_precincts.json"},
-			{"KML", "chicago_2015_precincts.kml"},
+			{"Shapefile", "chicago_2015_wards.zip"},
+			{"TopoJSON", "chicago_2015_wards_topo.json"},
+			{"GeoJSON", "chicago_2015_wards.json"},
+			{"KML", "chicago_2015_wards.kml"},
 		},
 	},
 	{
 		"Precincts",
 		[]download{
-			{"Shapefile", "chicago_2015_wards.zip"},
-			{"TopoJSON", "chicago_2015_wards_topo.json"},
-			{"GeoJSON", "chicago_2015_wards.json"},
-			{"KML", "chicago_2015_wards.kml"},
+			{"Shapefile", "chicago_2015_precincts.zip"},
+			{"TopoJSON", "chicago_2015_precincts_topo.json"},
+			{"GeoJSON", "chicago_2015_precincts.json"},
+			{"KML", "chicago_2015_precincts.kml"},
 		},
 	},
 	{
