@@ -354,3 +354,18 @@ footer p + p {
     content: 'at http://github.com/';
   }
 }
+
+.alert {
+    background: rgba(255, 0, 0, 0.1);
+    padding: 15px;
+    margin: 0 0 2em 0;
+}
+
+.alert,
+.alert a {
+    color: #990000;
+}
+
+.alert a {
+    text-decoration: underline;
+}
